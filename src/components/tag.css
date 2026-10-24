@@ -1,0 +1,14 @@
+/* Tag: status at a glance. Neutral | success | warning | danger. */
+.am-tag {
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 var(--am-space-3);
+  border-radius: var(--am-radius-pill);
+  font: 500 var(--am-text-xs) / 1 var(--am-font-body);
+  background: var(--am-surface-sunken);
+  color: var(--am-text-muted);
+}
+.am-tag--success { background: var(--am-primary-soft); color: var(--am-primary); }
+.am-tag--warning { background: var(--am-warning-soft); color: var(--am-warning); }
+.am-tag--danger { background: var(--am-danger-soft); color: var(--am-danger); }

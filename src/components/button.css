@@ -1,0 +1,32 @@
+/* Button: primary | secondary | ghost | danger; sizes sm | md | lg. Buttons are pills. */
+.am-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--am-space-2);
+  height: 40px;
+  padding: 0 var(--am-space-6);
+  border: 1px solid transparent;
+  border-radius: var(--am-radius-md);
+  font: 500 var(--am-text-sm) / 1 var(--am-font-body);
+  cursor: pointer;
+  transition: background var(--am-duration), border-color var(--am-duration);
+}
+.am-btn--sm { height: 32px; padding: 0 var(--am-space-4); font-size: var(--am-text-xs); }
+.am-btn--lg { height: 52px; padding: 0 var(--am-space-8); font-size: var(--am-text-md); }
+
+.am-btn--primary { background: var(--am-primary); color: var(--am-on-primary); }
+.am-btn--primary:hover { background: var(--am-primary-hover); }
+
+.am-btn--secondary { background: var(--am-surface); color: var(--am-text); border-color: var(--am-border); }
+.am-btn--secondary:hover { background: var(--am-surface-sunken); }
+
+.am-btn--ghost { background: transparent; color: var(--am-primary); }
+.am-btn--ghost:hover { background: var(--am-primary-soft); }
+
+.am-btn--danger { background: var(--am-danger); color: #ffffff; }
+.am-btn--danger:hover { filter: brightness(0.92); }
+
+.am-btn:disabled,
+.am-btn[aria-disabled="true"] { opacity: 0.45; cursor: not-allowed; }
+.am-btn[aria-busy="true"] { cursor: progress; }

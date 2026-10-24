@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap");
+@import "./tokens.css";
+
+body {
+  margin: 0;
+  background: var(--am-bg);
+  color: var(--am-text);
+  font-family: var(--am-font-body);
+  font-size: var(--am-text-md);
+  line-height: var(--am-leading-body);
+}
+
+h1, h2, h3 {
+  font-family: var(--am-font-display);
+  line-height: var(--am-leading-tight);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+h1 { font-size: var(--am-text-2xl); }
+h2 { font-size: var(--am-text-xl); }
+h3 { font-size: var(--am-text-lg); }
+
+code, kbd { font-family: var(--am-font-mono); font-size: 0.9em; }
+
+:focus-visible {
+  outline: 2px solid var(--am-focus);
+  outline-offset: 2px;
+}

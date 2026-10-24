@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="40" viewBox="0 0 176 40" role="img" aria-label="Amethyst">
+  <path d="M20 3 L34 15 L20 37 L6 15 Z" fill="#6d3fd6"/>
+  <path d="M6 15 H34 M20 3 L14 15 L20 37 L26 15 Z" fill="none" stroke="#ece4fd" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="44" y="27" font-family="Fraunces, Georgia, serif" font-size="21" font-weight="600" fill="#1e1433">Amethyst</text>
+</svg>

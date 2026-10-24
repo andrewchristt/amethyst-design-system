@@ -1,0 +1,16 @@
+/* Text input, select and textarea share one field style. */
+.am-field { display: grid; gap: var(--am-space-1); }
+.am-label { font-size: var(--am-text-sm); font-weight: 500; color: var(--am-text); }
+.am-hint { font-size: var(--am-text-xs); color: var(--am-text-muted); }
+.am-input {
+  height: 42px;
+  padding: 0 var(--am-space-3);
+  background: var(--am-surface);
+  color: var(--am-text);
+  border: 1px solid var(--am-border);
+  border-radius: var(--am-radius-sm);
+  font: 400 var(--am-text-sm) var(--am-font-body);
+}
+.am-input:focus { border-color: var(--am-primary); outline: none; box-shadow: 0 0 0 3px var(--am-primary-soft); }
+.am-input[aria-invalid="true"] { border-color: var(--am-danger); }
+.am-error { font-size: var(--am-text-xs); color: var(--am-danger); }

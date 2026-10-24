@@ -1,0 +1,11 @@
+/* Card: one object on the page. Not every block is a card. */
+.am-card {
+  background: var(--am-surface);
+  border: 1px solid var(--am-border);
+  border-radius: var(--am-radius-lg);
+  padding: var(--am-space-6);
+  box-shadow: var(--am-shadow-sm);
+}
+.am-card--raised { box-shadow: var(--am-shadow-md); }
+.am-card__title { font: 600 var(--am-text-lg) / var(--am-leading-tight) var(--am-font-display); margin: 0 0 var(--am-space-2); }
+.am-card__meta { font-size: var(--am-text-xs); color: var(--am-text-muted); }
